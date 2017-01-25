@@ -1,6 +1,9 @@
 {
   "name": "loopback-component-passport",
   "description": "LoopBack passport integration to support third party logins and account linking",
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "keywords": [
     "StrongLoop",
     "LoopBack",
@@ -9,10 +12,7 @@
     "security"
   ],
   "homepage": "https://github.com/strongloop/loopback-component-passport",
-  "version": "2.1.0",
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "version": "3.1.0",
   "maintainers": [
     {
       "name": "Raymond Feng",
@@ -32,9 +32,9 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "eslint": "^2.5.3",
+    "eslint": "^2.13.1",
     "eslint-config-loopback": "^4.0.0",
-    "loopback": "^2.29.1",
+    "loopback": "^3.0.0",
     "mocha": "^3.0.1",
     "mock-require": "^1.3.0",
     "sinon": "^1.17.5",
